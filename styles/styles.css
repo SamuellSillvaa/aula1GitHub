@@ -7,14 +7,6 @@
   vertical-align: baseline;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #000000;
-  border-bottom: 10px solid #7a7672;
-  padding: 10px 20px;
-}
-
 a {
   display: inline-flex;
   align-items: center;
@@ -26,30 +18,10 @@ a {
   margin-right: 30px;
 }
 
-a::before {
+a:before {
   content: "";
   background-color: #df2aae;
   width: 10px;
   height: 10px;
   margin-right: 10px;
-}
-nav {
-  text-align: right;
-}
-
-#button {
-  display: inline-block;
-  background-color: #f25a70;
-  height: 60px;
-  line-height: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
-  box-shadow: 5px 5px 0 #fff;
-  margin-right: 0;
-  transition: transform 100ms linear;
-}
-
-#button:hover {
-  background-color: #df2aae;
-  transform: scale(1.08);
 }
