@@ -15,4 +15,7 @@
 .section-card {
   background-color: #413f3f;
   border-bottom: 10px solid #000;
+  height: 530px;
+  width: 1349px;
+  padding-top: 50px;
 }
