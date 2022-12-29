@@ -17,7 +17,7 @@ a {
   text-decoration: none;
   margin-right: 30px;
 }
-.link:before {
+.main-link:before {
   content: "";
   background-color: #df2aae;
   width: 10px;

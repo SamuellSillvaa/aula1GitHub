@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
   box-sizing: border-box;
   background-image: url(../../assents/img/foto.webp);
   background-repeat: no-repeat;
@@ -9,17 +9,17 @@
   padding-left: 90px;
 }
 
-.banner .wrepper {
+.main-banner .wrepper {
   display: flex;
   flex-direction: column;
   width: 640px;
 }
 
-.banner .box {
+.main-banner .main-box {
   margin-bottom: 40px;
 }
 
-.banner .naviguetion {
+.main-banner .naviguetion {
   display: flex;
   justify-content: space-around;
 }
